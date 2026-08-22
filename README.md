@@ -3,13 +3,14 @@
 ## Environmental Setup
 Our implementation uses external libraries such as NumPy and PyTorch. You can resolve the dependencies with the following command.
 
-$ conda create -n kakaobrain python=3.7
-$ torchaudio = 0.13.1 torchsummary = 1.5.1 torchvision = 0.14.1
-$ pip install numpy
-$ conda install cython scipy
-$ pip install pycocotools
-$ pip install opencv-python
-
+```
+conda create -n kakaobrain python=3.7
+conda instal torchaudio = 0.13.1 torchsummary = 1.5.1 torchvision = 0.14.1 -c pytorch
+pip install numpy
+conda install cython scipy
+pip install pycocotools
+pip install opencv-python
+```
 
 ## For Data
 
@@ -25,7 +26,6 @@ https://github.com/yrcong/RelTR/blob/main/data/README.md#for-visual-genome
 
 ### Visual Genome
 
-```text
 BERI
 └── data
     └── vg
@@ -41,7 +41,6 @@ https://github.com/kakaobrain/hotr#2-hoi-dataset-setup
 
 ### HICO-DET
 
-```
 BERI
  |─ data
  │   └─ hico_20160224_det
@@ -50,7 +49,7 @@ BERI
  |       |   |─ test_hico.json
  |       |   └─ corre_hico.npy
  :       :
-```
+
 
 The raw datasets are not redistributed in this repository. Please follow the original dataset licenses and download instructions.
 
