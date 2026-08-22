@@ -26,6 +26,7 @@ https://github.com/yrcong/RelTR/blob/main/data/README.md#for-visual-genome
 
 ### Visual Genome
 
+```
 BERI
 └── data
     └── vg
@@ -34,13 +35,14 @@ BERI
         ├── train.json
         ├── val.json
         └── images
-
+```
 
 For HICO-DET, our data preparation follows the setup of HOTR:
 https://github.com/kakaobrain/hotr#2-hoi-dataset-setup
 
 ### HICO-DET
 
+```
 BERI
  |─ data
  │   └─ hico_20160224_det
@@ -49,7 +51,7 @@ BERI
  |       |   |─ test_hico.json
  |       |   └─ corre_hico.npy
  :       :
-
+```
 
 The raw datasets are not redistributed in this repository. Please follow the original dataset licenses and download instructions.
 
