@@ -1,4 +1,4 @@
-# Bidirectional Entity-Relation Interaction for Enhanced Scene Graph Generation
+# From Entity Roles to Relation Triplets: A One-Stage Approach to Scene Graph Generation
 
 ## For Inference
 Our implementation uses external libraries such as NumPy and PyTorch. You can resolve the dependencies with the following command.
