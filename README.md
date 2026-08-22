@@ -50,6 +50,7 @@ BERI
  |       |   |─ trainval_hico.json
  |       |   |─ test_hico.json
  |       |   └─ corre_hico.npy
+ |       |─ images
  :       :
 ```
 
