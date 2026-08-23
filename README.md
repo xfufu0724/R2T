@@ -70,7 +70,7 @@ python -m torch.distributed.launch --nproc_per_node=2 --use_env main.py --eval T
 | --- | --- | --- |
 | Visual Genome | [Google Drive]((https://drive.google.com/drive/folders/1O2CwjcBc9KnPbk_pGrEVGy9gLdCPOr-5?usp=drive_link)) | mR@20:6.9 mR@50: 10.2, mR@100:12.0  |
 | HICO-DET | [Google Drive]((https://drive.google.com/drive/folders/1O2CwjcBc9KnPbk_pGrEVGy9gLdCPOr-5?usp=drive_link)) | Full mAP: 26.6 Rare:20.9 Non-Rare: 28.3 |
-
+ 
 ## License
 
 The original code developed in this repository is released under the
